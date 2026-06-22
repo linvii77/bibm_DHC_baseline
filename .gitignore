@@ -1,0 +1,44 @@
+# Large data & artifacts (download separately, see REPRODUCE.md)
+synapse_data/
+amos_data/
+/data/
+Datasets/
+
+# Checkpoints & logs
+weights/
+logs/
+tmp_ckpts/
+model/
+*.pth
+*.pt
+*.ckpt
+
+# Visualization outputs
+vis_synapse/
+vis_synapse.zip
+vis_export*.log
+
+# Volume data
+*.npy
+*.h5
+*.hdf5
+*.nii.gz
+*.npz
+
+# Python / IDE
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tensorboard
+**/tensorboard/
